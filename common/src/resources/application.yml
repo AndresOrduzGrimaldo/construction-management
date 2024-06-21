@@ -1,11 +1,15 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/construction_db
-    username: andresorduzgrimaldo@gmail.com
-    password: (Andres8129)
+    username: yourusername
+    password: yourpassword
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
   application:
-    name: Construction Management Common
+    name: Common Module
+  security:
+    jwt:
+      secret: your_jwt_secret
+      expiration: 3600000
