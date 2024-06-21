@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/construction_db
+    username: andresorduzgrimaldo@gmail.com
+    password: (Andres8129)
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: Project Service
